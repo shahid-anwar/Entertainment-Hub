@@ -1,0 +1,31 @@
+.header
+{
+    width: 100%;
+    cursor: pointer;
+    position:fixed;
+    top: 0;
+    box-shadow: 0 1px 5px black;
+    display: flex;
+    justify-content: center;
+    background-color: #39445a;
+    z-index: 100;
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 5vw;
+    padding-bottom: 15px;
+}
+
+@media (max-width:1000px)
+{
+    .header{
+        font-size: 6.4vw;
+        padding-top :15px;
+    }
+ 
+}
+k
+
+*{
+    scroll-behavior: smooth;
+}
