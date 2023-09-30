@@ -1,0 +1,44 @@
+.image-poster{
+    z-index: 100;
+    border: 1px solid transparent;
+}
+.other-details
+{
+    display:flex;
+    flex-direction: column;
+    width:55%;
+    margin-top: 120px;
+    padding: 20px 10px 0px 10px;
+}
+.title{
+    display: flex;
+    place-items: center;
+    font-size: 3vw;
+}
+.tagline{
+    font-size: 1vw;
+}
+.overview{
+    line-height: 2;
+    font-size: 2vw;
+}
+.poster{
+    margin-top: 90px;
+    padding: 50px;
+    width: 45%;
+}
+.details-container{
+    background-color: #39445a;
+    color: white;
+}
+.main-container{
+    background-color: #39445a;
+    color: white;
+}
+.details-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 40px;
+  
+}
